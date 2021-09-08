@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    /* Tentei desse jeito, mas não ta somando os maiores e sim os 2 ultimos/*
+    <script>
+        
+        var numero1 = Number(prompt("Diga um número"));
+        var numero2 = Number(prompt("Diga outro número"));
+        var numero3 = Number(prompt("Diga outro número dnv"));
+
+        if  (numero3 < numero1 && numero1 < numero2){ 
+           document.write (numero1 + numero2);
+        }
+
+        else if (numero2 < numero1 && numero1 < numero3){
+            document.write(numero1 + numero3);
+        }
+
+        else if (numero2 < numero1 && numero1 < numero3){
+            document.write(numero1 + numero3);
+        }
+
+        else {
+            document.write(numero2 + numero3)
+        }
+
+
+</script>
+
+
+</body>
+</html>
